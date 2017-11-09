@@ -251,6 +251,7 @@
 <p>命令可以查看这个 <a href="https://gist.github.com/MohamedAlaa/2961058" target="_blank" rel="external">CheatSheet</a></p>
 <h2 id="mac-上和-iterm2-的集成"><a class="header-anchor" href="#mac-上和-iterm2-的集成">¶ </a>Mac 上和 iTerm2 的集成</h2>
 <p>如果本地机器使用的是 iTerm2，在 SSH 远程连接中使用 <code>tmux -CC</code> 命令，一个新的 tmux 会话就会被创建，并会开启一个新的窗口，而且 iTerm2 会接管 tmux 的功能，如分屏，就无需使用 tmux 的命令来进行了，可直接在这个新的窗口中使用 iTerm2 的快捷键，还有如历史查找等快捷键，也没必要对远程机器进行单独配置这些了。关闭某个面板时，选择 Hide，就可以使用 <code>tmux -CC attach</code> 命令来 attach 了。这个依然是使用场景1。</p>
+<p>在 iTerm2 的 <code>Preferences &gt; general</code> 中有一项 <code>tmux Integration</code>，可以对集成的 tmux 进行一些设置，如打开新窗口做为本地 tab，执行 <code>tmux -CC attach</code> 后，隐藏本窗口等。</p>
 <p>使用 mosh 替代 ssh，mosh 会自动断开重连，需要在两端都安装。不过若使用 mosh 的连接，使用 <code>-CC</code> 参数无反应。</p>
 
       
