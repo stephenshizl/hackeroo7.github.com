@@ -237,7 +237,7 @@
         
           <h2 id="生成所需xml"><a class="header-anchor" href="#生成所需xml">¶ </a>生成所需xml</h2>
 <h3 id="gpt-分区-parse-gpt"><a class="header-anchor" href="#gpt-分区-parse-gpt">¶ </a>GPT 分区 parse_gpt</h3>
-<p>根据官方 GPT 文件解析出具体的 GPT 的分区信息并生成对应平台的 partiiton.xml 文件，最后通过 <a href="http://ptool.py" target="_blank" rel="external">ptool.py</a> 生成可刷写的配置文件 rawprogram0.xml、patch0.xml 跟最后的 GPT。</p>
+<p>根据官方 GPT 文件解析出具体的 GPT 的分区信息并生成对应平台的 partiiton.xml 文件，最后通过 <a href="http://ptool.py" target="_blank" rel="noopener">ptool.py</a> 生成可刷写的配置文件 rawprogram0.xml、patch0.xml 跟最后的 GPT。</p>
 <p>官方的 gpt 文件一般需要经过裁剪,一般裁剪成 17408 字节大小，包括文件头开始的 512 字节的 MBR 信息 <code>dd if=gpt.bin of=gpt-new.bin bs=17408 count=1</code>,然后使用 <code>./parse_gpt gpt-new.bin</code>，输出在 <code>GPT_DUNP_FILES</code> 中。</p>
 <p>或者在手机中 <code>dd if=/dev/block/mmcblk0 of=/sdcard/gpt-new.bin bs=17408 count=1</code>，为配合 parse_gpt,大小一般为 17408/34304。</p>
           <div class="read-more">
@@ -677,8 +677,8 @@ sudo apt-get update
 <p>极路由真是太坑爹了，照着小米学，学得不到家。最后真正成了欺骗用户了，虽然自己也是受害者。<br>
 知乎上有很好的回答，可惜近日已经删除了，不过还是能看出点什么的。</p>
 <ul>
-<li><a href="http://www.zhihu.com/question/21971379" target="_blank" rel="external">如何评价极路由公司 2013 年 11 月发布的「极贰」路由器？</a></li>
-<li><a href="http://www.zhihu.com/question/21996327" target="_blank" rel="external">为什么网络上极路由的负面评价那么多？</a></li>
+<li><a href="http://www.zhihu.com/question/21971379" target="_blank" rel="noopener">如何评价极路由公司 2013 年 11 月发布的「极贰」路由器？</a></li>
+<li><a href="http://www.zhihu.com/question/21996327" target="_blank" rel="noopener">为什么网络上极路由的负面评价那么多？</a></li>
 </ul>
 <p>虽然被坑了，看习惯了塑料外壳的个子老大的路由器，看一下小巧金属外壳的hiwifi还是很养眼的。<br>
 从来没有接触过路由器固件的相关信息，现在有机会了，了解一下还是很好的，弄个下载机什么的。</p>
@@ -908,8 +908,10 @@ git stash
   <span class="copyright-year">
     
     &copy; 
+     
+      2017 - 
     
-    2017
+    2018
 
     <span class="heart">
       <i class="iconfont icon-heart"></i>

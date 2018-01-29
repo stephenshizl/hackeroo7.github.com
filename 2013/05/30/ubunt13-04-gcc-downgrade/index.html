@@ -233,23 +233,23 @@
 <p>在ubuntu中安装完virtualbox，启动时出错，按照提示执行：<br>
 <code>sudo /etc/init.d/vboxdrv setup</code></p>
 <p>再模块加载时出了一个错：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">* Modprobe vboxdrv failed. Please use &apos;dmesg&apos; to find out why.</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* Modprobe vboxdrv failed. Please use &apos;dmesg&apos; to find out why.</span><br></pre></td></tr></table></figure>
 <p>查看log，<code>/var/log/vbox-install.log</code>，怀疑是gcc的问题</p>
 <p>遂将gcc版本升级为4.7，再次执行</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo /etc/init.d/vboxdrv setup</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /etc/init.d/vboxdrv setup</span><br></pre></td></tr></table></figure>
 <p>时成功通过，并启动。然后又将gcc版本降为4.4。</p>
 <a id="more"></a>
 <p>ubuntu13.04 的 gcc 版本是 4.7.3 的，防止以后编译时因版本太高而出现的编译错误，将版本降为 4.4.</p>
 <p>查看版本：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">gcc -v</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">gcc -v</span><br></pre></td></tr></table></figure>
 <p>安装gcc4.4：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install g++-4.4-multilib gcc-4.4-multilib</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install g++-4.4-multilib gcc-4.4-multilib</span><br></pre></td></tr></table></figure>
 <p>注意软链：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">ls /usr/bin/gcc* -l</div><div class="line">ls /usr/bin/g++* -l</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ls /usr/bin/gcc* -l</span><br><span class="line">ls /usr/bin/g++* -l</span><br></pre></td></tr></table></figure>
 <p>修改软链:</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">cd /usr/bin/</div><div class="line">sudo mv gcc gcc.bak</div><div class="line">sudo ln -s gcc-4.4 gcc</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/bin/</span><br><span class="line">sudo mv gcc gcc.bak</span><br><span class="line">sudo ln -s gcc-4.4 gcc</span><br></pre></td></tr></table></figure>
 <p>同样的修改g++：</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo mv g++ g++.bak</div><div class="line">sudo ln -s g++-4.4 g++</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo mv g++ g++.bak</span><br><span class="line">sudo ln -s g++-4.4 g++</span><br></pre></td></tr></table></figure>
 <p>再次查看版本号，OK</p>
 
       
@@ -372,8 +372,10 @@
   <span class="copyright-year">
     
     &copy; 
+     
+      2017 - 
     
-    2017
+    2018
 
     <span class="heart">
       <i class="iconfont icon-heart"></i>

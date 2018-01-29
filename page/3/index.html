@@ -300,7 +300,7 @@
         
           <p>遇到了太多的麻烦，整个重来了好几遍</p>
 <p>官方文档:</p>
-<p><a href="http://jekyllrb.com/docs/migrations/" target="_blank" rel="external">http://jekyllrb.com/docs/migrations/</a></p>
+<p><a href="http://jekyllrb.com/docs/migrations/" target="_blank" rel="noopener">http://jekyllrb.com/docs/migrations/</a></p>
 <p>安装过程中出错，因为 ruby 版本太低，要更新版本到 1.9.2，因为先前的工作并没有更新 ruby 的版本，导致遇到了很多麻烦，所以重新来了一遍。更新 ruby 的方法，已经放到了第一篇文章中去了。</p>
 <p>备份 wordpress 的文章:</p>
 <p>进入 wordpress 的后台，工具-导出，导出文章即可，是一个 xml 文件</p>
@@ -476,7 +476,7 @@
 
         
           <p>默认 Navigation Bar 的控制在</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">bool</span> <span class="attr">name</span>=<span class="string">"config_showNavigationBar"</span>&gt;</span>true<span class="tag">&lt;/<span class="name">bool</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">bool</span> <span class="attr">name</span>=<span class="string">"config_showNavigationBar"</span>&gt;</span>true<span class="tag">&lt;/<span class="name">bool</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p><code>alps/frameworks/base/core/res/res/values/config.xml</code> 文件中</p>
 </blockquote>
@@ -536,7 +536,7 @@
 
         
           <p>手一哆嗦把分支删掉了，干掉了好几天的工作成果，不甘心。谁让咱git使用没那么牛呢，遂找办法。还是把《git权威指南》细细看完吧。</p>
-<p>转自：<a href="http://sumsung753.blog.163.com/blog/static/146364501201301711943864/" target="_blank" rel="external">http://sumsung753.blog.163.com/blog/static/146364501201301711943864/</a></p>
+<p>转自：<a href="http://sumsung753.blog.163.com/blog/static/146364501201301711943864/" target="_blank" rel="noopener">http://sumsung753.blog.163.com/blog/static/146364501201301711943864/</a></p>
 <p>在使用Git的过程中，有时可能会有一些误操作</p>
 <p>比如：执行<code>checkout -f</code> 或  <code>reset -hard</code> 或  <code>branch -d</code>删除一个分支</p>
 <p>结果造成本地（远程）的分支或某些commit丢失</p>
@@ -660,10 +660,10 @@ sudo apt-get install mysql-client
 <p>在ubuntu中安装完virtualbox，启动时出错，按照提示执行：<br>
 <code>sudo /etc/init.d/vboxdrv setup</code></p>
 <p>再模块加载时出了一个错：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">* Modprobe vboxdrv failed. Please use &apos;dmesg&apos; to find out why.</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">* Modprobe vboxdrv failed. Please use &apos;dmesg&apos; to find out why.</span><br></pre></td></tr></table></figure>
 <p>查看log，<code>/var/log/vbox-install.log</code>，怀疑是gcc的问题</p>
 <p>遂将gcc版本升级为4.7，再次执行</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo /etc/init.d/vboxdrv setup</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo /etc/init.d/vboxdrv setup</span><br></pre></td></tr></table></figure>
 <p>时成功通过，并启动。然后又将gcc版本降为4.4。</p>
           <div class="read-more">
             <a href="/2013/05/30/ubunt13-04-gcc-downgrade/" class="read-more-link">Read more..</a>
@@ -761,8 +761,10 @@ sudo apt-get install mysql-client
   <span class="copyright-year">
     
     &copy; 
+     
+      2017 - 
     
-    2017
+    2018
 
     <span class="heart">
       <i class="iconfont icon-heart"></i>

@@ -233,9 +233,9 @@
 <a id="more"></a>
 <p>只有使用自定义签名时才使用项目签名:</p>
 <p>配置选项为:</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">MTK_SIGNATURE_CUSTOMIZATION = yes</div><div class="line">MTK_INTERNAL = no</div><div class="line">cp -fr build/target/product/security/$old_p/ build/target/product/security/$new_p/</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">MTK_SIGNATURE_CUSTOMIZATION = yes</span><br><span class="line">MTK_INTERNAL = no</span><br><span class="line">cp -fr build/target/product/security/$old_p/ build/target/product/security/$new_p/</span><br></pre></td></tr></table></figure>
 <p>其它:</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">cp -fr build/target/product/$old_p.mk build/target/product/$new_p.mk</div><div class="line">cp -fr mediatek/config/$old_p/ mediatek/config/$new_p/</div><div class="line">cp -fr mediatek/custom/$old_p/ mediatek/custom/$new_p/</div><div class="line">cp -fr vendor/mediatek/$old_p/ vendor/mediatek/$new_p/</div><div class="line">mv vendor/mediatek/$new_p/artifacts/out/target/product/$old_p vendor/mediatek/$new_p/artifacts/out/target/product/$new_p</div></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">cp -fr build/target/product/$old_p.mk build/target/product/$new_p.mk</span><br><span class="line">cp -fr mediatek/config/$old_p/ mediatek/config/$new_p/</span><br><span class="line">cp -fr mediatek/custom/$old_p/ mediatek/custom/$new_p/</span><br><span class="line">cp -fr vendor/mediatek/$old_p/ vendor/mediatek/$new_p/</span><br><span class="line">mv vendor/mediatek/$new_p/artifacts/out/target/product/$old_p vendor/mediatek/$new_p/artifacts/out/target/product/$new_p</span><br></pre></td></tr></table></figure>
 <p>还有<br>
 <code>/vendor/mediatek/$project/artifacts/target.txt</code><br>
 修改里面的 $project 为 $new_p</p>
@@ -366,8 +366,10 @@
   <span class="copyright-year">
     
     &copy; 
+     
+      2017 - 
     
-    2017
+    2018
 
     <span class="heart">
       <i class="iconfont icon-heart"></i>

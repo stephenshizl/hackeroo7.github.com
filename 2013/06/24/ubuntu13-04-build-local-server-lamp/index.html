@@ -269,7 +269,7 @@ chmod 777 /var/www/
 </code></pre>
 <p>输入密码，看是否可正常登陆</p>
 <h3 id="检测apache是否正常"><a class="header-anchor" href="#检测apache是否正常">¶ </a>检测Apache是否正常</h3>
-<p>在浏览器中打开：<a href="http://localhost" target="_blank" rel="external">http://localhost/</a></p>
+<p>在浏览器中打开：<a href="http://localhost" target="_blank" rel="noopener">http://localhost/</a></p>
 <p>如果出现如下信息，则表明正常。</p>
 <blockquote>
 <p>It works!</p>
@@ -280,9 +280,9 @@ chmod 777 /var/www/
 </blockquote>
 <h3 id="检测php是否正常"><a class="header-anchor" href="#检测php是否正常">¶ </a>检测PHP是否正常</h3>
 <p>Ubuntu下Apache的默认安装路径为/var/www/，到其目录下新建info.php文件，文件内容为：</p>
-<p>然后在浏览器中打开：<a href="http://localhost/info.php" target="_blank" rel="external">http://localhost/info.php</a> 看是否正常。</p>
+<p>然后在浏览器中打开：<a href="http://localhost/info.php" target="_blank" rel="noopener">http://localhost/info.php</a> 看是否正常。</p>
 <h3 id="检查phpmyadmin是否正常"><a class="header-anchor" href="#检查phpmyadmin是否正常">¶ </a>检查phpMyadmin是否正常</h3>
-<p>在浏览器中访问<a href="http://localhost/phpmyadmin" target="_blank" rel="external">http://localhost/phpmyadmin</a>，到phpMyAdmin的登陆界面</p>
+<p>在浏览器中访问<a href="http://localhost/phpmyadmin" target="_blank" rel="noopener">http://localhost/phpmyadmin</a>，到phpMyAdmin的登陆界面</p>
 <p>重启apache服务器：</p>
 <p>做完一些修改后有时要重启一下：</p>
 <pre><code>sudo /etc/init.d/apache2 restart
@@ -414,8 +414,10 @@ chmod 777 /var/www/
   <span class="copyright-year">
     
     &copy; 
+     
+      2017 - 
     
-    2017
+    2018
 
     <span class="heart">
       <i class="iconfont icon-heart"></i>

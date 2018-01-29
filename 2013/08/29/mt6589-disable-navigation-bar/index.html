@@ -230,7 +230,7 @@
     <div class="post-content">
       
         <p>默认 Navigation Bar 的控制在</p>
-<figure class="highlight xml"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">bool</span> <span class="attr">name</span>=<span class="string">"config_showNavigationBar"</span>&gt;</span>true<span class="tag">&lt;/<span class="name">bool</span>&gt;</span></div></pre></td></tr></table></figure>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">bool</span> <span class="attr">name</span>=<span class="string">"config_showNavigationBar"</span>&gt;</span>true<span class="tag">&lt;/<span class="name">bool</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <blockquote>
 <p><code>alps/frameworks/base/core/res/res/values/config.xml</code> 文件中</p>
 </blockquote>
@@ -238,7 +238,7 @@
 <p>6589 navigation Bar 最终控制在，会覆盖掉上述设置：<br>
 <code>alps/mediatek/custom/project_name/resource_overlay/generic/frameworks/base/core/res/res/values/config.xml</code></p>
 <p>所以主要修改 config 中的 overlay 为 false。</p>
-<p>但是有的在 build.prop 中又定义了 qemu.hw.mainkeys，可以在 config 中的 system.prop 中去掉，或者改为 qemu.hw.mainkeys=1。如果 <a href="http://buildinfo.sh" target="_blank" rel="external">buildinfo.sh</a> 中有此定义，也可以修改掉</p>
+<p>但是有的在 build.prop 中又定义了 qemu.hw.mainkeys，可以在 config 中的 system.prop 中去掉，或者改为 qemu.hw.mainkeys=1。如果 <a href="http://buildinfo.sh" target="_blank" rel="noopener">buildinfo.sh</a> 中有此定义，也可以修改掉</p>
 
       
     </div>
@@ -366,8 +366,10 @@
   <span class="copyright-year">
     
     &copy; 
+     
+      2017 - 
     
-    2017
+    2018
 
     <span class="heart">
       <i class="iconfont icon-heart"></i>

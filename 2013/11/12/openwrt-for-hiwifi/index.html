@@ -241,8 +241,8 @@
 <p>极路由真是太坑爹了，照着小米学，学得不到家。最后真正成了欺骗用户了，虽然自己也是受害者。<br>
 知乎上有很好的回答，可惜近日已经删除了，不过还是能看出点什么的。</p>
 <ul>
-<li><a href="http://www.zhihu.com/question/21971379" target="_blank" rel="external">如何评价极路由公司 2013 年 11 月发布的「极贰」路由器？</a></li>
-<li><a href="http://www.zhihu.com/question/21996327" target="_blank" rel="external">为什么网络上极路由的负面评价那么多？</a></li>
+<li><a href="http://www.zhihu.com/question/21971379" target="_blank" rel="noopener">如何评价极路由公司 2013 年 11 月发布的「极贰」路由器？</a></li>
+<li><a href="http://www.zhihu.com/question/21996327" target="_blank" rel="noopener">为什么网络上极路由的负面评价那么多？</a></li>
 </ul>
 <p>虽然被坑了，看习惯了塑料外壳的个子老大的路由器，看一下小巧金属外壳的hiwifi还是很养眼的。<br>
 从来没有接触过路由器固件的相关信息，现在有机会了，了解一下还是很好的，弄个下载机什么的。</p>
@@ -282,10 +282,10 @@ make package/symlinks
     dd if=rom.bin of=uboot.bin bs=1k count=128
     cat uboot.bin bin/ar71xx/openwrt-ar71xx-generic-tw150v1-squashfs-sysupgrade.bin &gt;recovery.bin
 </code></pre>
-<p>上面的链接404，暂时的解决方法是跳过wget，手动下载官方的一个<a href="http://bbs.hiwifi.com/thread-7710-1-1.html" target="_blank" rel="external">recovery.bin</a>，重命名为rom.bin然后执行下面的命令提取uboot.bin。</p>
+<p>上面的链接404，暂时的解决方法是跳过wget，手动下载官方的一个<a href="http://bbs.hiwifi.com/thread-7710-1-1.html" target="_blank" rel="noopener">recovery.bin</a>，重命名为rom.bin然后执行下面的命令提取uboot.bin。</p>
 <h3 id="刷机"><a class="header-anchor" href="#刷机">¶ </a>刷机</h3>
 <ul>
-<li>去这里下载<a href="http://bbs.hiwifi.com/thread-7710-1-1.html" target="_blank" rel="external">官方开源版本固件</a>，解压</li>
+<li>去这里下载<a href="http://bbs.hiwifi.com/thread-7710-1-1.html" target="_blank" rel="noopener">官方开源版本固件</a>，解压</li>
 <li>将上一步生成的recovery.bin替换目录中recovery.bin</li>
 <li>用网线将极路由 LAN 口与电脑网口相连</li>
 <li>将电脑网络接口 IP 设置为 192.168.1.88/255.255.255.0</li>
@@ -295,10 +295,10 @@ make package/symlinks
 </ul>
 <h2 id="参考-扩展阅读"><a class="header-anchor" href="#参考-扩展阅读">¶ </a>参考，扩展阅读</h2>
 <ul>
-<li><a href="http://chaopeng.me/blog/2013/10/28/hiwifi.html" target="_blank" rel="external">极路由的正确玩法</a></li>
-<li><a href="http://www.openwrt.org.cn/bbs/forum.php?mod=viewthread&amp;tid=14193" target="_blank" rel="external">OpenWrt安装goagent实例教程</a></li>
-<li><a href="http://blog.csdn.net/conupefox/article/details/8557253" target="_blank" rel="external">Openwrt架设DNS转发器，解决污染问题 </a></li>
-<li><a href="https://code.google.com/p/openwrt-hiwifi/" target="_blank" rel="external">openwrt-hiwifi</a></li>
+<li><a href="http://chaopeng.me/blog/2013/10/28/hiwifi.html" target="_blank" rel="noopener">极路由的正确玩法</a></li>
+<li><a href="http://www.openwrt.org.cn/bbs/forum.php?mod=viewthread&amp;tid=14193" target="_blank" rel="noopener">OpenWrt安装goagent实例教程</a></li>
+<li><a href="http://blog.csdn.net/conupefox/article/details/8557253" target="_blank" rel="noopener">Openwrt架设DNS转发器，解决污染问题 </a></li>
+<li><a href="https://code.google.com/p/openwrt-hiwifi/" target="_blank" rel="noopener">openwrt-hiwifi</a></li>
 </ul>
 
       
@@ -427,8 +427,10 @@ make package/symlinks
   <span class="copyright-year">
     
     &copy; 
+     
+      2017 - 
     
-    2017
+    2018
 
     <span class="heart">
       <i class="iconfont icon-heart"></i>

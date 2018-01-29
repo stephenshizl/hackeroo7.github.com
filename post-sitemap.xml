@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>http://blog.omitol.com/2017/10/15/JVM-Polymorphism/</loc>
+        <lastmod>2018-01-12T06:25:07.060Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://blog.omitol.com/2017/11/03/Tmux-Guide/</loc>
         <lastmod>2017-11-09T02:19:03.758Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -17,14 +25,6 @@
     <url>
         <loc>http://blog.omitol.com/2015/07/11/yading/</loc>
         <lastmod>2017-10-15T11:43:19.106Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.omitol.com/2017/10/15/JVM-Polymorphism/</loc>
-        <lastmod>2017-10-15T11:40:44.732Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -159,6 +159,14 @@
     </url>
 
     <url>
+        <loc>http://blog.omitol.com/2013/09/30/mt6589-add-new-project/</loc>
+        <lastmod>2017-09-27T13:20:18.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>http://blog.omitol.com/2013/08/29/mt6589-disable-navigation-bar/</loc>
         <lastmod>2017-09-27T13:20:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -167,7 +175,7 @@
     </url>
 
     <url>
-        <loc>http://blog.omitol.com/2013/09/30/mt6589-add-new-project/</loc>
+        <loc>http://blog.omitol.com/2013/08/12/recover-deleted-branches-lost-commit/</loc>
         <lastmod>2017-09-27T13:20:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -184,14 +192,6 @@
 
     <url>
         <loc>http://blog.omitol.com/2013/11/12/openwrt-for-hiwifi/</loc>
-        <lastmod>2017-09-27T13:20:18.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>http://blog.omitol.com/2013/08/12/recover-deleted-branches-lost-commit/</loc>
         <lastmod>2017-09-27T13:20:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>

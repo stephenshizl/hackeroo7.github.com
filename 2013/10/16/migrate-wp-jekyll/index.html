@@ -231,7 +231,7 @@
       
         <p>遇到了太多的麻烦，整个重来了好几遍</p>
 <p>官方文档:</p>
-<p><a href="http://jekyllrb.com/docs/migrations/" target="_blank" rel="external">http://jekyllrb.com/docs/migrations/</a></p>
+<p><a href="http://jekyllrb.com/docs/migrations/" target="_blank" rel="noopener">http://jekyllrb.com/docs/migrations/</a></p>
 <p>安装过程中出错，因为 ruby 版本太低，要更新版本到 1.9.2，因为先前的工作并没有更新 ruby 的版本，导致遇到了很多麻烦，所以重新来了一遍。更新 ruby 的方法，已经放到了第一篇文章中去了。</p>
 <p>备份 wordpress 的文章:</p>
 <p>进入 wordpress 的后台，工具-导出，导出文章即可，是一个 xml 文件</p>
@@ -240,7 +240,7 @@
 <pre><code>sudo gem install hpricot 
 </code></pre>
 <p>这里使用别人修改好了的脚本，官方脚本对中文支持不友好：</p>
-<p><a href="https://gist.github.com/chitsaou/1394128" target="_blank" rel="external">https://gist.github.com/chitsaou/1394128</a></p>
+<p><a href="https://gist.github.com/chitsaou/1394128" target="_blank" rel="noopener">https://gist.github.com/chitsaou/1394128</a></p>
 <p>将备份的 wordpress.xml 放到项目的根目录，把脚本放到新建的 <code>utils</code> 目录中，然后运行：</p>
 <pre><code>sudo ruby -r &quot;./utils/wordpressdotcom.rb&quot; -e &quot;Jekyll::WordpressDotCom.process&quot;
 </code></pre>
@@ -374,8 +374,10 @@
   <span class="copyright-year">
     
     &copy; 
+     
+      2017 - 
     
-    2017
+    2018
 
     <span class="heart">
       <i class="iconfont icon-heart"></i>
