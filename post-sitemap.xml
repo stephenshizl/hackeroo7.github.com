@@ -175,14 +175,6 @@
     </url>
 
     <url>
-        <loc>http://blog.omitol.com/2017/04/18/oneplus3-as-wifi-repeater/</loc>
-        <lastmod>2017-09-27T13:20:18.000Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
         <loc>http://blog.omitol.com/2013/11/12/openwrt-for-hiwifi/</loc>
         <lastmod>2017-09-27T13:20:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -192,6 +184,14 @@
 
     <url>
         <loc>http://blog.omitol.com/2013/08/12/recover-deleted-branches-lost-commit/</loc>
+        <lastmod>2017-09-27T13:20:18.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>http://blog.omitol.com/2013/10/17/sublime-text2-edit-markdown/</loc>
         <lastmod>2017-09-27T13:20:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -215,7 +215,7 @@
     </url>
 
     <url>
-        <loc>http://blog.omitol.com/2013/10/17/sublime-text2-edit-markdown/</loc>
+        <loc>http://blog.omitol.com/2013/06/24/ubuntu13-04-build-local-server-lamp/</loc>
         <lastmod>2017-09-27T13:20:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -223,7 +223,7 @@
     </url>
 
     <url>
-        <loc>http://blog.omitol.com/2013/06/24/ubuntu13-04-build-local-server-lamp/</loc>
+        <loc>http://blog.omitol.com/2017/04/18/oneplus3-as-wifi-repeater/</loc>
         <lastmod>2017-09-27T13:20:18.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
